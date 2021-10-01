@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+
+}
+.heros-image {
+  background-image: url("img_de_surf.jpg");
+  
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heros-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+h1 {
+	text-align: center;
+	padding-top: 50px;
+	}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+.ro2 {
+	display: flex;
+	justify-content: space-around;
+
+}
+aside {
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
